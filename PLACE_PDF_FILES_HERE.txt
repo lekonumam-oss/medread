@@ -1,0 +1,64 @@
+PLACE YOUR PDF FILES IN THIS FOLDER
+=====================================
+
+This folder (assets/pdfs/) is where MedRead looks for PDF study materials.
+
+REQUIRED PDF FILENAMES
+-----------------------
+The app expects the following filenames exactly as shown.
+You can use any real PDF files — just rename them to match.
+
+ANATOMY (subjectId = 1)
+  intro_anatomy.pdf
+  skeletal_system.pdf
+  muscular_system.pdf
+
+PHYSIOLOGY (subjectId = 2)
+  intro_physiology.pdf
+  cardiovascular.pdf
+  nervous_system.pdf
+
+BIOCHEMISTRY (subjectId = 3)
+  intro_biochemistry.pdf
+  proteins_enzymes.pdf
+  carb_metabolism.pdf
+
+PATHOLOGY (subjectId = 4)
+  intro_pathology.pdf
+  cell_injury.pdf
+  inflammation.pdf
+
+PHARMACOLOGY (subjectId = 5)
+  intro_pharmacology.pdf
+  drug_receptors.pdf
+  autonomic_pharmacology.pdf
+
+
+HOW TO ADD PDFs
+---------------
+1. Obtain or create PDF files for each topic above.
+2. Rename the files to exactly match the filenames listed above.
+3. Copy the PDF files into this folder:
+       app/src/main/assets/pdfs/
+
+4. Rebuild the app in Android Studio (Build → Make Project).
+
+TESTING WITHOUT REAL PDFs
+--------------------------
+You can use any PDF file as a placeholder during testing.
+For example:
+  - Create a simple PDF using Microsoft Word or Google Docs
+  - Export it as PDF
+  - Rename it to "intro_anatomy.pdf"
+  - Place it in this folder
+
+The app will open whatever PDF you provide.
+
+FREE PDF SOURCES
+----------------
+You can find free medical study PDFs at:
+  - OpenStax (openstax.org) — free medical textbooks
+  - LibreTexts (libretexts.org) — free educational content
+  - NCBI Bookshelf (ncbi.nlm.nih.gov/books) — free biomedical books
+
+NOTE: This .txt file is just a guide — the app ignores non-PDF files.
