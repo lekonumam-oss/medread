@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    colors.xml
+    Base color references used by the theme (themes.xml).
+    Actual color logic is handled in our Compose theme (Theme.kt).
+    These XML colors are still needed for the splash screen and window background.
+-->
+<resources>
+    <!-- Primary medical blue -->
+    <color name="med_blue">#FF1565C0</color>
+    <!-- Light blue for containers -->
+    <color name="med_blue_light">#FFBBDEFB</color>
+    <!-- White background -->
+    <color name="white">#FFFFFFFF</color>
+    <!-- Light background -->
+    <color name="med_background">#FFF5F8FF</color>
+</resources>

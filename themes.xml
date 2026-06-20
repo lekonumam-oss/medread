@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    themes.xml
+    Minimal XML theme — just enough for the Android window to launch cleanly.
+    All visual styling is handled in Kotlin by Theme.kt (Compose Material 3).
+
+    Parent "Theme.Material3.DayNight.NoActionBar" comes from the
+    "com.google.android.material:material" library in app/build.gradle.kts.
+-->
+<resources>
+    <style name="Theme.MedRead" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Window background shown while Compose is loading -->
+        <item name="android:windowBackground">@color/med_background</item>
+        <!-- Transparent status bar — Compose draws behind it via enableEdgeToEdge() -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
